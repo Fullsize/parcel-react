@@ -1,0 +1,4 @@
+{
+  // "presets": ["react"],
+  "plugins": ["@parcel/babel-plugin-transform-runtime"]
+}
