@@ -1,11 +1,10 @@
 /*
  * @Date: 2022-08-25 18:05:33
  * @LastEditors: Fullsize
- * @LastEditTime: 2022-08-25 18:17:11
+ * @LastEditTime: 2022-08-25 18:20:21
  * @FilePath: /parceljs-react/src/routes/index.ts
  * @Author: Fullsize
  */
-import loadable from '@loadable/component';
 const route = [
   {
     path: '/',
