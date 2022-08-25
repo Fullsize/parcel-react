@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-08-25 10:34:28
  * @LastEditors: Fullsize
- * @LastEditTime: 2022-08-25 11:53:42
+ * @LastEditTime: 2022-08-25 14:24:05
  * @FilePath: /parceljs-react/src/app.tsx
  * @Author: Fullsize
  */
@@ -13,7 +13,8 @@
  * @Author: Fullsize
  */
 import React  from 'react';
-import Home from './pages/home';
+import Home from 'src/pages/home';
+import './index.css';
 const APP=()=>{
   return(
     <Home />

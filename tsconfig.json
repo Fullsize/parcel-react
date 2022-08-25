@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx",
+    "jsx": "react",
     "baseUrl": ".",
     "target": "es2021",
     "strict": true,
@@ -10,9 +10,10 @@
     "experimentalDecorators": true,
     "esModuleInterop":true,
     "paths": {
-      "@src/*":["./src/*"]
+      "src/*":["./src/*"],
+      "images/*":["./public/images/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src","types/css.d.ts","types/window.d.ts"],
   "exclude": ["node_modules"]
 }
