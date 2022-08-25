@@ -2,6 +2,7 @@
   "name": "parceljs-react",
   "version": "1.0.0",
   "description": "",
+  "homepage": "./",
   "alias": {
     "src": "./src",
     "images":"./public/images"
@@ -9,7 +10,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html -p 3000",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html  --public-url ./ --no-source-maps",
+    "help":"parcel help"
   },
   "browserslist": [
     "> 0.1%",
