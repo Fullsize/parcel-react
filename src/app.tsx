@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-08-25 10:34:28
  * @LastEditors: Fullsize
- * @LastEditTime: 2022-08-25 14:24:05
+ * @LastEditTime: 2022-08-25 17:53:59
  * @FilePath: /parceljs-react/src/app.tsx
  * @Author: Fullsize
  */
