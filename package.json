@@ -5,13 +5,13 @@
   "homepage": "./",
   "alias": {
     "src": "./src",
-    "images":"./public/images"
+    "images": "./public/images"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html -p 3000",
     "build": "parcel build index.html  --public-url ./ --no-source-maps",
-    "help":"parcel help"
+    "help": "parcel help"
   },
   "browserslist": [
     "> 0.1%",
@@ -28,7 +28,7 @@
     "@types/qs": "^6.9.7",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
-    "buffer": "^6.0.3",
+    "buffer": "4.0",
     "parcel": "^2.7.0",
     "process": "^0.11.10"
   },
