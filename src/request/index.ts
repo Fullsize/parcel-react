@@ -1,13 +1,11 @@
 /*
  * @Date: 2022-03-14 15:12:02
  * @LastEditors: Fullsize
- * @LastEditTime: 2022-08-25 15:14:09
+ * @LastEditTime: 2022-08-25 18:05:57
  * @FilePath: /parceljs-react/src/request/index.ts
  * @Author: Fullsize
  */
 import axios from "axios";
-// const baseURL = ENV.MODE === 'development' ? ENV['VITE_BASE_API'] : window['smart_base_api']
-// const token = ENV.MODE === 'development' ? ENV['VITE_BASE_TOKEN'] : window['smart_token']
 const baseURL = window['base_api']
 const token = ''
 import qs from 'qs'

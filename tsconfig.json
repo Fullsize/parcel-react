@@ -4,6 +4,7 @@
     "baseUrl": ".",
     "target": "es2021",
     "strict": true,
+    "module":"es2020",
     // "isolatedModules":true,
     "moduleResolution": "node",
     // "jsxImportSource": "preact",

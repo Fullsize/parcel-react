@@ -1,21 +1,26 @@
 /*
  * @Date: 2022-08-25 11:33:39
  * @LastEditors: Fullsize
- * @LastEditTime: 2022-08-25 17:53:38
- * @FilePath: /parceljs-react/src/pages/home.tsx
+ * @LastEditTime: 2022-08-25 18:14:11
+ * @FilePath: /parceljs-react/src/pages/home/index.tsx
  * @Author: Fullsize
  */
 import React,{useEffect} from "react";
-import request from "src/request"
-import bg from 'images/1.png';
+import route from "src/routes";
+import {Link} from 'react-router-dom'
 const Home=()=>{
-  useEffect(()=>{
-    request.get('/a')
-  },[])
+  
   return(
-    <div className="box">
-      hello word!
-      <img src={bg} alt="" />
+    <div>
+      <h1>页面列表</h1>
+      <ul>
+      {route.map((item)=>(
+         <li>
+            <Link to={item.path}>{item.title}</Link>
+         </li>
+      ))}
+       
+      </ul>
     </div>
   )
 }
