@@ -9,8 +9,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel index.html -p 3000",
-    "build": "parcel build index.html  --public-url ./ --no-source-maps",
+    "start": "rimraf dist && rimraf .parcel-cache && parcel index.html -p 3000  ",
+    "build": "rimraf dist && rimraf .parcel-cache && parcel build index.html  --public-url ./ --no-source-maps",
     "help": "parcel help"
   },
   "browserslist": [
@@ -31,7 +31,8 @@
     "@types/react-dom": "^18.0.6",
     "buffer": "4.0",
     "parcel": "^2.7.0",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "rimraf": "^3.0.2"
   },
   "dependencies": {
     "@loadable/component": "^5.15.2",
