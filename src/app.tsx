@@ -1,7 +1,7 @@
 /*
  * @Date: 2022-08-25 10:34:28
  * @LastEditors: Fullsize
- * @LastEditTime: 2022-08-25 18:11:33
+ * @LastEditTime: 2022-08-29 10:42:23
  * @FilePath: /parceljs-react/src/app.tsx
  * @Author: Fullsize
  */
@@ -15,6 +15,7 @@
 import React from 'react';
 import route from './routes';
 import { Routes, Route } from "react-router-dom";
+import Layout from 'src/components/layout';
 import './index.css';
 const APP = () => {
   const renderRoute = (data: any) => {
@@ -44,9 +45,11 @@ const APP = () => {
     })
   }
   return (
-    <Routes>
-      {renderRoute(route)}
-    </Routes>
+    <Layout>
+      <Routes>
+        {renderRoute(route)}
+      </Routes>
+    </Layout>
   )
 }
 export default APP;
